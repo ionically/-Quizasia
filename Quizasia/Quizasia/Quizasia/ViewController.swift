@@ -30,6 +30,9 @@ class ViewController: UIViewController {
     
     // MARK: Data
     //used inbuilt function
+    //screen = storyboard = UI words use karo
+    //design
+    //code development
     
     func makeLabel() {
         //hardcoded = fixed value never or dont try to depend on hard coded value
@@ -42,9 +45,15 @@ class ViewController: UIViewController {
         print(textArray)
         lblExpression.text = (textArray[0]) //text array zeroth element
         button2.setTitle("\(answer[0])", for: .normal)
-        button1.setTitle("", for: .normal)
-        button3.setTitle("", for: .normal)
-        button4.setTitle("", for: .normal)
+        
+        let randomOption1 = Int.random(in: 0..<6000)// word is random works for picking up automatically from o till 6000
+        button1.setTitle("\(randomOption1)", for: .normal)
+        
+        let randomOption2 = Int.random(in: 0..<6000)
+        button3.setTitle("\(randomOption2)", for: .normal)
+        
+        let randomOption3 = Int.random(in: 0..<6000)
+        button4.setTitle("\(randomOption3)", for: .normal)
         
     }
     

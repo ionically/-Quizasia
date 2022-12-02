@@ -54,6 +54,8 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="120">
                                                                     <fontDescription key="titleFontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="28"/>
+                                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="baseBackgroundColor" red="0.79564380649999999" green="0.95006519560000002" blue="0.92205590010000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
                                                             </button>
                                                         </subviews>
@@ -77,6 +79,8 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="75">
                                                                     <fontDescription key="titleFontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="28"/>
+                                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="baseBackgroundColor" red="0.77974700929999996" green="0.93343275790000002" blue="0.95933336020000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
                                                             </button>
                                                         </subviews>
@@ -104,6 +108,8 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="35">
                                                                     <fontDescription key="titleFontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="28"/>
+                                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="baseBackgroundColor" red="0.99692767859999998" green="0.97389727829999995" blue="0.88627183440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
                                                             </button>
                                                         </subviews>
@@ -123,6 +129,8 @@
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="filled" title="100">
                                                                     <fontDescription key="titleFontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="28"/>
+                                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <color key="baseBackgroundColor" red="0.99872881170000005" green="0.89001876120000001" blue="0.87247568369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 </buttonConfiguration>
                                                             </button>
                                                         </subviews>
