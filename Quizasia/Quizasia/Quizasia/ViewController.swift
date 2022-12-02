@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+   
+    @IBOutlet weak var tickCorrectImageView: UIImageView!
     @IBOutlet weak var button1: UIButton!
     @IBOutlet weak var button2: UIButton!
     @IBOutlet weak var button3: UIButton!
@@ -25,7 +27,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         makeArray()
         makeLabel()
+        onlyhideAnswerButtonClick()
         
+    }
+    
+    @IBAction func correctAnswerClick1(_ sender: Any) {
+        //Show green tick
+        //Load the next question
+        onlyshowAnwersButtonClick()
+    
     }
     
     // MARK: Data
@@ -93,8 +103,13 @@ class ViewController: UIViewController {
         
     }
     
-    
-    
+    func onlyshowAnwersButtonClick() {
+        tickCorrectImageView.isHidden = false
+    }
+        
+    func onlyhideAnswerButtonClick() {
+        tickCorrectImageView.isHidden = true
+    }
     
     
 }
