@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         makeArray()
         makeLabel()
         onlyhideAnswerButtonClick()
-        loadQuestion(currentQuestionIndex)
+        loadQuestion()
         
     }
     
@@ -39,13 +39,14 @@ class ViewController: UIViewController {
         //Load the next question
         //whenever we call fun inside function we call self
         onlyshowAnwersButtonClick()
-        let seconds = 4.0
+        let seconds = 1.0
         DispatchQueue.main.asyncAfter(deadline: .now() + seconds) { [weak self] in
             // Put your code which should be executed with a delay here
             print("After one second code")
             self?.onlyhideAnswerButtonClick()
             self?.incrementCounter()
-            self?.loadQuestion(self!.currentQuestionIndex)
+            self?.loadQuestion()
+            self?.showScoreBoard()
         }
     }
     
@@ -72,8 +73,11 @@ class ViewController: UIViewController {
         if currentQuestionIndex == 5 {
             //display the scoreboard
         }//end of if statement
-            
         
+//        if condition {
+//
+//        }
+//
     }
     
     func incrementCounter() {
@@ -102,22 +106,22 @@ class ViewController: UIViewController {
       currentQuestionIndex += 1
         print("We are printing current index \(currentQuestionIndex)")
     }//end of func incrementCounter
-    
+    //_ direct pass*
+    //indirectly label name
     //camel casing first small to big case
     //guard is used to check anything
-    func loadQuestion(_ currentIndex: Int?) {
-        guard let currentIndex = currentIndex else { return }
+    func loadQuestion() {
         
         guard !textArray.isEmpty, !answer.isEmpty else {
             return
         }
         
-        guard currentIndex >= 0,
-              currentIndex < textArray.count,
-              currentIndex < answer.count else { return }
+        guard currentQuestionIndex >= 0,
+              currentQuestionIndex < textArray.count,
+              currentQuestionIndex < answer.count else { return }
         
-        lblExpression.text = (textArray[currentIndex]) //text array zeroth element
-        button2.setTitle("\(answer[currentIndex])", for: .normal)
+        lblExpression.text = (textArray[currentQuestionIndex]) //text array zeroth element
+        button2.setTitle("\(answer[currentQuestionIndex])", for: .normal)
         
         let randomOption1 = Int.random(in: 0..<6000)// word is random works for picking up automatically from o till 6000
         button1.setTitle("\(randomOption1)", for: .normal)
