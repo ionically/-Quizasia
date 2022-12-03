@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80FF75B293BA31D00E50999 /* ScoreBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80FF75A293BA31D00E50999 /* ScoreBoardViewController.swift */; };
 		F8DF17C129377D5200455D94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF17C029377D5200455D94 /* AppDelegate.swift */; };
 		F8DF17C329377D5200455D94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF17C229377D5200455D94 /* SceneDelegate.swift */; };
 		F8DF17C529377D5200455D94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8DF17C429377D5200455D94 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F80FF75A293BA31D00E50999 /* ScoreBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreBoardViewController.swift; sourceTree = "<group>"; };
 		F8DF17BD29377D5200455D94 /* Quizasia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizasia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DF17C029377D5200455D94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8DF17C229377D5200455D94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				F8DF17C029377D5200455D94 /* AppDelegate.swift */,
 				F8DF17C229377D5200455D94 /* SceneDelegate.swift */,
 				F8DF17C429377D5200455D94 /* ViewController.swift */,
+				F80FF75A293BA31D00E50999 /* ScoreBoardViewController.swift */,
 				F8DF17D429378B6E00455D94 /* CustomView.xib */,
 				F8DF17C629377D5200455D94 /* Main.storyboard */,
 				F8DF17C929377D5400455D94 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8DF17C529377D5200455D94 /* ViewController.swift in Sources */,
+				F80FF75B293BA31D00E50999 /* ScoreBoardViewController.swift in Sources */,
 				F8DF17C129377D5200455D94 /* AppDelegate.swift in Sources */,
 				F8DF17C329377D5200455D94 /* SceneDelegate.swift in Sources */,
 			);

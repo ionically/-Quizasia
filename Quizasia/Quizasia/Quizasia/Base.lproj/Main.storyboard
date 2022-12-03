@@ -220,6 +220,54 @@
             </objects>
             <point key="canvasLocation" x="-412" y="-675"/>
         </scene>
+        <!--Score Board View Controller-->
+        <scene sceneID="65u-bm-MUt">
+            <objects>
+                <viewController storyboardIdentifier="scoreBoard" id="EWn-JV-XC2" customClass="ScoreBoardViewController" customModule="Quizasia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gQz-Us-hg6">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EYA-tM-mEL">
+                                <rect key="frame" x="0.0" y="47" width="390" height="763"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fso-SK-5JX">
+                                        <rect key="frame" x="145.66666666666666" y="200" width="99" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5/5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rbg-Sm-1Q1">
+                                        <rect key="frame" x="165.33333333333334" y="200" width="59.333333333333343" height="363"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                        <color key="textColor" systemColor="systemGreenColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.9882352941176471" green="0.60690206290000004" blue="0.52667480710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="fso-SK-5JX" firstAttribute="top" secondItem="EYA-tM-mEL" secondAttribute="top" constant="200" id="A3w-UA-kog"/>
+                                    <constraint firstItem="fso-SK-5JX" firstAttribute="centerX" secondItem="EYA-tM-mEL" secondAttribute="centerX" id="F6E-Z9-8he"/>
+                                    <constraint firstAttribute="bottom" secondItem="Rbg-Sm-1Q1" secondAttribute="bottom" constant="200" id="ey7-H7-gfo"/>
+                                    <constraint firstItem="Rbg-Sm-1Q1" firstAttribute="centerY" secondItem="EYA-tM-mEL" secondAttribute="centerY" id="faV-he-3hc"/>
+                                    <constraint firstItem="Rbg-Sm-1Q1" firstAttribute="centerX" secondItem="EYA-tM-mEL" secondAttribute="centerX" id="rL5-fv-V7t"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2Hj-Gb-Fr7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2Hj-Gb-Fr7" firstAttribute="bottom" secondItem="EYA-tM-mEL" secondAttribute="bottom" id="Jon-Ja-0Ad"/>
+                            <constraint firstItem="2Hj-Gb-Fr7" firstAttribute="trailing" secondItem="EYA-tM-mEL" secondAttribute="trailing" id="Msm-pv-VC6"/>
+                            <constraint firstItem="EYA-tM-mEL" firstAttribute="leading" secondItem="2Hj-Gb-Fr7" secondAttribute="leading" id="U6e-2R-Oz8"/>
+                            <constraint firstItem="EYA-tM-mEL" firstAttribute="top" secondItem="2Hj-Gb-Fr7" secondAttribute="top" id="dyh-2K-Bfu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yod-gE-LW1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1083" y="-675"/>
+        </scene>
     </scenes>
     <resources>
         <image name="checkmark.seal.fill" catalog="system" width="128" height="124"/>

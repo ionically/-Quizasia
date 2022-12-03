@@ -33,6 +33,11 @@ class ViewController: UIViewController {
         
     }
     
+    func openScoardBoard() {
+        let storyBoard = self.storyboard?.instantiateViewController(withIdentifier: "scoreBoard") as! ScoreBoardViewController
+        self.navigationController?.pushViewController(storyBoard, animated: true)
+    }
+    
     @IBAction func correctAnswerClick1(_ sender: Any) {
         //Show green tick
         //also called closure
@@ -71,6 +76,7 @@ class ViewController: UIViewController {
         //check if it is a last question
         //display the scoreboard
         if currentQuestionIndex == 5 {
+            openScoardBoard()
             //display the scoreboard
         }//end of if statement
         
